@@ -1,0 +1,4 @@
+baseURL = "https://ucsb-game-dev-club.github.io/"
+languageCode = "en-us"
+title = "UCSB Game Development Club"
+theme = "ucsb-gamedev"

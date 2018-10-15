@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+{{ $menuitems := dict "news" "News and Events" "about" "About" "resources" "Resources" }}
+<html>
+    <head>
+        <title> {{ block "title" . }} {{.Site.Title}} &ndash; {{.Page.Title}} {{ end }} </title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <header class="header-menu pure-menu pure-menu-horizontal">
+            <a href="/" class="pure-menu-heading pure-menu-link">UCSB Game Development Club</a>
+            <ul class="pure-menu-list">
+                {{ range $link, $desc := $menuitems }}
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link" href="/{{ $link }}">{{$desc}}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </header>
+        <main id="main-content">
+            {{ block "main" . }}
+            {{ end }}
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
