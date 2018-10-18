@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
