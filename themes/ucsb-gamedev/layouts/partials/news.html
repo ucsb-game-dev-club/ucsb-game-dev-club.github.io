@@ -1,0 +1,13 @@
+<span class="article-summary-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</span> <br />
+<span class="article-header-postinfo">{{ .Params.Author }} - {{ .Date.Format "Jan 2, 2006" }}</span>
+<p>
+    {{ .Summary }}
+
+    {{ if .Truncated }}
+    <div>
+        <a href="{{ .RelPermalink }}">Read More...</a>
+    </div>
+    {{ end }}
+</p>

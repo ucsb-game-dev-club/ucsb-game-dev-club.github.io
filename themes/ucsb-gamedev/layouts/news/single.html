@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+    <header class="article-header">
+        <h1>{{ .Title }}</h1>
+        <span class="article-header-postinfo">
+            {{ .Params.Author }} -
+            {{ .Date.Format "Jan 2, 2006" }}
+        </span>
+    </header>
+    <section>
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}
