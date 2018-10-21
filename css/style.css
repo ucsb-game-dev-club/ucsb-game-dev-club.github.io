@@ -11,4 +11,27 @@ body {
 .header-menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
+    box-shadow: 0 0 5px gray;
+}
+
+.article-header > h1 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.article-header-postinfo {
+    font-size: 0.8em;
+}
+
+.article-summary-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.article-summary {
+}
+
+.article-summary-title {
+    font-size: 1.5em;
 }

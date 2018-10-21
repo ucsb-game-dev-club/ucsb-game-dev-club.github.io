@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ucsb-game-dev-club.github.io/news/2018/hello/</loc>
+    <lastmod>2018-10-21T11:09:03-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ucsb-game-dev-club.github.io/about/</loc>
   </url>
   
@@ -13,6 +18,7 @@
   
   <url>
     <loc>https://ucsb-game-dev-club.github.io/news/</loc>
+    <lastmod>2018-10-21T11:09:03-07:00</lastmod>
   </url>
   
   <url>
@@ -26,6 +32,7 @@
   
   <url>
     <loc>https://ucsb-game-dev-club.github.io/</loc>
+    <lastmod>2018-10-21T11:09:03-07:00</lastmod>
     <priority>0</priority>
   </url>
   
