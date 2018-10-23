@@ -8,23 +8,28 @@
         <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
-        <header class="header-menu pure-menu pure-menu-horizontal">
+        <header class="site-header pure-menu pure-menu-horizontal">
             <a href="/" class="pure-menu-heading pure-menu-link">UCSB Game Development Club</a>
-            <ul class="pure-menu-list">
-                
-                <li class="pure-menu-item">
-                    <a class="pure-menu-link" href="/about">About</a>
-                </li>
-                
-                <li class="pure-menu-item">
-                    <a class="pure-menu-link" href="/news">News and Events</a>
-                </li>
-                
-                <li class="pure-menu-item">
-                    <a class="pure-menu-link" href="/resources">Resources</a>
-                </li>
-                
-            </ul>
+            <div class="site-header-menu-container">
+                <input type="checkbox" id="site-header-menu-button" />
+                <label id="site-header-menu-label" class="pure-menu-link"
+                       for="site-header-menu-button">Menu</label>
+                <ul id="site-header-menu" class="pure-menu-list">
+                    
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="/about">About</a>
+                    </li>
+                    
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="/news">News and Events</a>
+                    </li>
+                    
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="/resources">Resources</a>
+                    </li>
+                    
+                </ul>
+            </div>
         </header>
         <main id="main-content">
             
@@ -67,7 +72,9 @@
 </div>
 
         </main>
-        <footer>
+        <footer class="footer">
+            Site generated with <a href="https://gohugo.io/">Hugo</a>. Want to
+            add something? Help out <a href="https://github.com/ucsb-game-dev-club/ucsb-game-dev-club.github.io/tree/source/">here!</a>
         </footer>
     </body>
 </html>
