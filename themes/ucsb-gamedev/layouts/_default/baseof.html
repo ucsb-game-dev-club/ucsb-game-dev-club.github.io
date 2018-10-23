@@ -8,15 +8,20 @@
         <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
-        <header class="header-menu pure-menu pure-menu-horizontal">
+        <header class="site-header pure-menu pure-menu-horizontal">
             <a href="/" class="pure-menu-heading pure-menu-link">UCSB Game Development Club</a>
-            <ul class="pure-menu-list">
-                {{ range $link, $desc := $menuitems }}
-                <li class="pure-menu-item">
-                    <a class="pure-menu-link" href="/{{ $link }}">{{$desc}}</a>
-                </li>
-                {{ end }}
-            </ul>
+            <div class="site-header-menu-container">
+                <input type="checkbox" id="site-header-menu-button" />
+                <label id="site-header-menu-label" class="pure-menu-link"
+                       for="site-header-menu-button">Menu</label>
+                <ul id="site-header-menu" class="pure-menu-list">
+                    {{ range $link, $desc := $menuitems }}
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="/{{ $link }}">{{$desc}}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
         </header>
         <main id="main-content">
             {{ block "main" . }}

@@ -11,11 +11,51 @@ body {
     flex-grow: 1;
 }
 
-.header-menu {
+.site-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
     box-shadow: 0 0 5px gray;
+}
+
+.site-header > div {
+    display: flex;
+}
+
+#site-header-menu-button, #site-header-menu-label {
+    display: none;
+}
+
+#site-header-menu-label::after {
+    content: " \25bc" /* Down arrow */
+}
+
+.site-header-menu-container {
+    position: relative;
+}
+
+@media screen and (max-width: 760px) {
+    #site-header-menu-label {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    #site-header-menu {
+        display: none;
+    }
+
+    #site-header-menu-button:checked ~ #site-header-menu-label::after {
+        content: " \25b2" /* Up arrow */
+    }
+
+    #site-header-menu-button:checked ~ #site-header-menu {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        top: 100%;
+        right: 0;
+    }
 }
 
 .footer {
