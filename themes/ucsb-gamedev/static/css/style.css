@@ -87,3 +87,35 @@ body {
 .article-summary-title {
     font-size: 1.5em;
 }
+
+.showcase-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.showcase-list-item {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: calc(50% - 4.25em);
+    height: 5em;
+}
+
+.showcase-project-header > h1 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+@media screen and (max-width: 760px) {
+    .showcase-list {
+        flex-direction: column;
+        align-content: stretch;
+    }
+    .showcase-list-item {
+        flex-basis: 100%;
+    }
+}

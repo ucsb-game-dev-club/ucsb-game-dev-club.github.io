@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article>
+    <img class="showcase-fullimage" src="{{ .Params.FullImage }}" alt="Image of the game" />
+    <header class="showcase-project-header">
+        <h1>{{ .Title }}</h1>
+        <span class="article-header-postinfo">
+            By {{ .Params.Authors }}
+        </span>
+        <br />
+        <div class="pure-button-group" role="group">
+            {{ if isset .Params "website" }}
+            <a class="pure-button pure-button-primary" href="{{ .Params.Website }}">Website</a>
+            {{ end }}
+            {{ if isset .Params "download" }}
+            <a class="pure-button pure-button-primary" href="{{ .Params.Download }}">Download</a>
+            {{ end }}
+        </div>
+    </header>
+    <section>
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}
