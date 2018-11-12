@@ -100,7 +100,7 @@ body {
 .showcase-list-item {
     margin: 1em;
     padding: 1em;
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px #00A2FF;
     flex-basis: calc(50% - 4.25em);
     height: 5em;
 }
