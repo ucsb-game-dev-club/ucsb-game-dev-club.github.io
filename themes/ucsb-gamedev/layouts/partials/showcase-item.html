@@ -1,6 +1,17 @@
-<span class="showcase-item-title">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</span> <br />
-<p>
-    {{ .Params.Summary }}
-</p>
+{{ $thumbnailFile := "thumbnail.jpg" }}
+{{ if isset .Params "thumbnail" }}
+  {{ $thumbnailFile = .Params.Thumbnail }}
+{{ end }}
+{{ $thumbnailUrl := printf "%s%s" .URL $thumbnailFile }}
+
+<object class="showcase-list-item-thumbnail" data="{{ $thumbnailUrl }}" type="image/jpg">
+    No Image
+</object>
+<span class="showcase-list-item-info">
+    <span class="showcase-list-item-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </span>
+    <p class="showcase-list-item-description">
+        {{ .Params.Summary }}
+    </p>
+</span>

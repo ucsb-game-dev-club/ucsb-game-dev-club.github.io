@@ -5,7 +5,9 @@
 -->
 <ul class="showcase-list">
     {{ range .Paginator.Pages }}
-    <li class="showcase-list-item">{{ partial "showcase-item" . }}</li>
+    <li>
+        <div class="showcase-list-item">{{ partial "showcase-item" . }}</div>
+    </li>
     {{ end }}
 </ul>
 <hr />
