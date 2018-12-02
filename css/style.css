@@ -87,3 +87,77 @@ body {
 .article-summary-title {
     font-size: 1.5em;
 }
+
+/* Showcase listing styles */
+
+.showcase-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.showcase-list > li {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 49%;
+    max-width: 50%;
+}
+
+.showcase-list-item {
+    margin: 20px;
+    padding: 1em;
+    box-shadow: 1px 1px 5px #00A2FF;
+    height: 6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.showcase-list-item > * {
+}
+
+.showcase-list-item-thumbnail {
+    /* Image should have a fixed size */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 6em;
+    height: 6em;
+    margin-right: 1em;
+    color: white;
+    background: gray;
+    /* Center the "No Image" text */
+    text-align: center;
+    line-height: 6em; /* Must be same as height */
+}
+
+.showcase-list-item-info {
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 0;
+}
+
+.showcase-list-item-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .showcase-list {
+        flex-direction: column;
+        align-content: stretch;
+    }
+    .showcase-list > li {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Individual project showcase page styles */
+
+.showcase-project-header > h1 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}

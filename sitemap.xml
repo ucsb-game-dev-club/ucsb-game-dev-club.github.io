@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ucsb-game-dev-club.github.io/showcase/example3/</loc>
+    <lastmod>2018-11-11T12:47:23-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ucsb-game-dev-club.github.io/showcase/example2/</loc>
+    <lastmod>2018-11-11T12:45:45-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ucsb-game-dev-club.github.io/showcase/example/</loc>
+    <lastmod>2018-11-11T12:31:51-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ucsb-game-dev-club.github.io/news/2018/hello/</loc>
     <lastmod>2018-10-21T11:09:03-07:00</lastmod>
   </url>
@@ -26,13 +41,18 @@
   </url>
   
   <url>
+    <loc>https://ucsb-game-dev-club.github.io/showcase/</loc>
+    <lastmod>2018-11-11T12:47:23-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ucsb-game-dev-club.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ucsb-game-dev-club.github.io/</loc>
-    <lastmod>2018-10-21T11:09:03-07:00</lastmod>
+    <lastmod>2018-11-11T12:47:23-08:00</lastmod>
     <priority>0</priority>
   </url>
   

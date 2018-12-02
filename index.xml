@@ -6,10 +6,37 @@
     <description>Recent content on UCSB Game Development Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Oct 2018 11:09:03 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 12:47:23 -0800</lastBuildDate>
     
 	<atom:link href="https://ucsb-game-dev-club.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Example3</title>
+      <link>https://ucsb-game-dev-club.github.io/showcase/example3/</link>
+      <pubDate>Sun, 11 Nov 2018 12:47:23 -0800</pubDate>
+      
+      <guid>https://ucsb-game-dev-club.github.io/showcase/example3/</guid>
+      <description>Description of the game</description>
+    </item>
+    
+    <item>
+      <title>Example2</title>
+      <link>https://ucsb-game-dev-club.github.io/showcase/example2/</link>
+      <pubDate>Sun, 11 Nov 2018 12:45:45 -0800</pubDate>
+      
+      <guid>https://ucsb-game-dev-club.github.io/showcase/example2/</guid>
+      <description>Description of the game</description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://ucsb-game-dev-club.github.io/showcase/example/</link>
+      <pubDate>Sun, 11 Nov 2018 12:31:51 -0800</pubDate>
+      
+      <guid>https://ucsb-game-dev-club.github.io/showcase/example/</guid>
+      <description>Description of the game</description>
+    </item>
     
     <item>
       <title>Hello</title>
@@ -26,7 +53,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/about/</guid>
-      <description>About Us TODO</description>
+      <description> About Us The UCSB Game Development Club (GDC) is&amp;hellip; TODO
+Club Officers  Jake Alexei Chealsea is the club’s co-chair and Art Specialist in 2D concept and character art with some experience in 3D modeling. She’s interested in narratively driven games with wholesome messages and a sense of humor. On the side, she dabbles in fan merchandise, s(truggling)tudying in earth science, and thinking about her next meal. Jackie Tiffany Bryan  </description>
     </item>
     
     <item>
@@ -35,7 +63,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/resources/</guid>
-      <description>Resources TODO</description>
+      <description>Resources This page contains a list of helpful resources for game development.
+Free tools Since it&amp;rsquo;s hard to get started, we&amp;rsquo;ve listed a few free tools for you to try out here.
+Game Engines  Unity 3D Godot Engine Ren&amp;rsquo;Py Visual Novel Engine  Painting and Image Editing Software  Krita GIMP Paint.NET Inkscape  Tutorials  TODO  Assets When using free assets, please remember to credit the authors.</description>
     </item>
     
   </channel>
