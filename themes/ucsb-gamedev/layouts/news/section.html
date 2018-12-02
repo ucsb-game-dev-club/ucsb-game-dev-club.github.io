@@ -10,14 +10,14 @@
 
 <div class="pure-button-group" role="group">
     <a class="pure-button"
-       {{ if .Paginator.HasNext }} href="{{ .Paginator.Next.URL }}"
-       {{ else }} disabled {{ end }}>
-        Next Page
-    </a>
-    <a class="pure-button"
        {{ if .Paginator.HasPrev }} href="{{ .Paginator.Prev.URL }}"
        {{ else }} disabled {{ end }}>
         Previous Page
+    </a>
+    <a class="pure-button"
+       {{ if .Paginator.HasNext }} href="{{ .Paginator.Next.URL }}"
+       {{ else }} disabled {{ end }}>
+        Next Page
     </a>
 </div>
 {{ end }}
