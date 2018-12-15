@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://ucsb-game-dev-club.github.io/</loc>
+    <lastmod>2018-11-11T12:47:23-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ucsb-game-dev-club.github.io/about/</loc>
   </url>
   
@@ -47,12 +52,6 @@
   
   <url>
     <loc>https://ucsb-game-dev-club.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ucsb-game-dev-club.github.io/</loc>
-    <lastmod>2018-11-11T12:47:23-08:00</lastmod>
     <priority>0</priority>
   </url>
   
