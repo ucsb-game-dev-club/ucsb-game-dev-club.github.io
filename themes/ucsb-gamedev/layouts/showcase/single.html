@@ -1,6 +1,13 @@
 {{ define "main" }}
-<article>
-    <img class="showcase-fullimage" src="{{ .Params.FullImage }}" alt="Image of the game" />
+
+{{ $imageFile := "fullimage.jpg" }}
+{{ if isset .Params "fullimage" }}
+{{ $imageFile = .Params.FullImage }}
+{{ end }}
+{{ $imageUrl := printf "%s%s" .URL $imageFile }}
+
+<article class="showcase-project">
+    <img class="showcase-fullimage" src="{{ $imageUrl }}" alt="Image of the game" />
     <header class="showcase-project-header">
         <h1>{{ .Title }}</h1>
         <span class="article-header-postinfo">
@@ -15,8 +22,10 @@
             <a class="pure-button pure-button-primary" href="{{ .Params.Download }}">Download</a>
             {{ end }}
         </div>
+        <p class="showcase-project-summary">{{ .Params.Summary }}</p>
     </header>
     <section>
+        <h2>About {{.Title}}</h2>
         {{ .Content }}
     </section>
 </article>
