@@ -5,8 +5,9 @@ use [Hugo](https://gohugo.io) as a static site generator.
 
 ## Getting Started
 
-Make sure you have `hugo` and `git` installed. Once you have them both
-installed, open a terminal (`cmd` on Windows) and run
+Make sure you have `hugo` and `git` installed. You will also need to install
+`git-lfs` so you can download images used in the website. Once you have all
+three installed, open a terminal (`cmd` on Windows) and run
 
 ```plain
 git clone https://github.com/ucsb-game-dev-club/ucsb-game-dev-club.github.io.git
@@ -60,6 +61,27 @@ The front page file is located in `themes/ucsb-gamedev/layouts/index.html`.
 The website page template is located in
 `themes/ucsb-gamedev/layouts/_default/baseof.html`. Be careful when editing this
 file because you may break something!
+
+### Showcase Pages
+
+To create a showcase page, run
+
+```plain
+hugo new showcase/<title>.md
+```
+
+You can then customize the following settings in the header:
+
+* `download`: (Optional) A link to download the game. If there isn't one, delete
+  this setting and the download button will not be shown.
+* `website`: (Optional) A link to the game's website. If there isn't one,
+  delete this setting and the website button will not be shown.
+* `thumbnail`: The name of the thumbnail image, which defaults to
+  `thumbnail.jpg`. The thumbnail file should be placed in
+  `static/<title>/<thumbnail_file>`.
+* `fullimage`: The name of the image used in the project page, which defaults to
+  `fullimage.jpg`. The image file should be placed in
+  `static/<title>/<fullimage_file>`.
 
 ## Publishing
 
