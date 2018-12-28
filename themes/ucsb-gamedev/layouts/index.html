@@ -1,5 +1,9 @@
 {{ define "title" }} {{.Site.Title}} {{ end }}
 
 {{ define "main" }}
-{{ .Content }}
+<article>
+    <section>
+        {{ .Content }}
+    </section>
+</article>
 {{ end }}

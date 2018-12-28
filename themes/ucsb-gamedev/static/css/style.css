@@ -13,6 +13,17 @@ code {
     font-family: courier, monospace;
 }
 
+/* Centers contents */
+.prose-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sets a max width for readability */
+.prose-width {
+    max-width: 60em;
+}
+
 #main-content {
     padding-left: 2em;
     padding-right: 2em;
