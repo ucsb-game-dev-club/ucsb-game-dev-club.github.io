@@ -86,6 +86,44 @@ code {
     box-shadow: 0 0 5px gray;
 }
 
+/* About page */
+
+.officer-info-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.officer-info-list > li {
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+.officer-info-list > li:last-child {
+    padding-bottom: 0;
+}
+
+.officer-info-portrait {
+    width: 5em;
+    height: 5em;
+    align-self: center;
+}
+
+.officer-info-desc {
+    margin-left: 2em;
+}
+
+@media screen and (max-width: 760px) {
+    .officer-info-list > li {
+        flex-direction: column;
+    }
+
+    .officer-info-desc {
+        margin-left: 0;
+    }
+}
+
+/* News and Events */
+
 .article-header > h1 {
     margin-top: 0em;
     margin-bottom: 0em;
