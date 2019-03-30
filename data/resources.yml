@@ -3,34 +3,58 @@
 # Each object under the [categories] key has the following keys:
 # - title: The text used in the heading, as shown on the page.
 # - description: (Optional) Text describing the category
-# - items: The resource entries that belong to this category.
+# - subcategories: A list of subcategories
+# - items: The resource entries not belonging to any subcategory
+#
+# Each object under the [subcategories] key has the following keys:
+# - title: The text used in the heading, as shown on the page.
+# - description: (Optional) Text describing the subcategory
+# - items: The resource entries belonging to the subcategory
 #
 # Each resource entry is an object with the following keys:
 # - name: The name of the entry
-# - link: The link to this resource
+# - link: (Optional) The link to this resource
 # - description: (Optional) A description of what this resource is.
 
 categories:
-- title: "Game Engines"
-  items:
-  - name: "Godot Engine"
-    link: "https://godotengine.org"
-    description: Foo bar baz
-  - name: "Unity 3D"
-    link: "https://unity3d.com"
-    description: Foo bar baz
-  - name: "Ren'Py Visual Novel Engine"
-    link: "https://renpy.org"
+- title: "Game Making Programs"
+  subcategories:
+  - title: "Fully-featured game engines"
+    description: "These game engines are versatile enough to make it possible to
+    implement a large variety of game mechanics."
+    items:
+    - name: "Unreal Engine"
+      link: "https://www.unrealengine.com/en-US/what-is-unreal-engine-4"
+    - name: "Unity 3D"
+      link: "https://unity3d.com"
+  - title: "Other"
+    items:
+    - name: "Godot Engine"
+      link: "https://godotengine.org"
+    - name: "Ren'Py Visual Novel Engine"
+      link: "https://renpy.org"
 - title: "Painting and Image Editing Software"
-  items:
-  - name: "Krita"
-    link: "https://krita.org"
-  - name: "GIMP"
-    link: "https://gimp.org"
-  - name: "Paint.NET"
-    link: "https://getpaint.net"
-  - name: "Inkscape"
-    link: "https://inkscape.org"
+  subcategories:
+  - title: "Multi-purpose"
+    items:
+    - name: "Krita"
+      link: "https://krita.org"
+    - name: "GIMP"
+      link: "https://gimp.org"
+    - name: "Paint.NET"
+      link: "https://getpaint.net"
+    - name: "Inkscape"
+      link: "https://inkscape.org"
+  - title: "Pixel art"
+    items:
+    - name: "Graphics Gale"
+      link: "https://graphicsgale.com/us/"
+  - title: "Tiles and Sprites"
+    items:
+    - name: "Tiled Map Editor"
+      link: "https://mapeditor.org"
+    - name: "Free Texture Packer"
+      link: "http://free-tex-packer.com/"
 - title: "Assets"
   description: "When using free assets, please remember to credit the authors."
   items:

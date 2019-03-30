@@ -6,15 +6,24 @@
 <p>{{ $category.description | markdownify }}</p>
 {{ end }}
 
+{{ range $category.subcategories }}
+{{ $subcategory := . }}
+<h3>{{ $subcategory.title}}</h3>
+{{ if isset $subcategory "description" }}
+<p>{{ $subcategory.description | markdownify }}</p>
+{{ end }}
+
 <ul>
-    {{ range $category.items }}
-    {{ $item := . }}
-    <li>
-        <a href="{{ $item.link }}">{{ $item.name }}</a>
-        {{ if isset $item "description" }}
-        {{ $item.description | markdownify }}
-        {{ end }}
-    </li>
+    {{ range $subcategory.items }}
+    {{ partial "resource_entry.html" . }}
     {{ end }}
 </ul>
+{{ end }}
+
+<ul>
+    {{ range $category.items }}
+    {{ partial "resource_entry.html" . }}
+    {{ end }}
+</ul>
+
 {{ end }}
