@@ -1,0 +1,20 @@
+{{ range $.Site.Data.resources.categories }}
+{{ $category := . }}
+<h2>{{ $category.title }}</h2>
+
+{{ if isset $category "description" }}
+<p>{{ $category.description | markdownify }}</p>
+{{ end }}
+
+<ul>
+    {{ range $category.items }}
+    {{ $item := . }}
+    <li>
+        <a href="{{ $item.link }}">{{ $item.name }}</a>
+        {{ if isset $item "description" }}
+        {{ $item.description | markdownify }}
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

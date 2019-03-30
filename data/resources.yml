@@ -1,0 +1,46 @@
+# This file determines what is displayed on the resources page.
+#
+# Each object under the [categories] key has the following keys:
+# - title: The text used in the heading, as shown on the page.
+# - description: (Optional) Text describing the category
+# - items: The resource entries that belong to this category.
+#
+# Each resource entry is an object with the following keys:
+# - name: The name of the entry
+# - link: The link to this resource
+# - description: (Optional) A description of what this resource is.
+
+categories:
+- title: "Game Engines"
+  items:
+  - name: "Godot Engine"
+    link: "https://godotengine.org"
+    description: Foo bar baz
+  - name: "Unity 3D"
+    link: "https://unity3d.com"
+    description: Foo bar baz
+  - name: "Ren'Py Visual Novel Engine"
+    link: "https://renpy.org"
+- title: "Painting and Image Editing Software"
+  items:
+  - name: "Krita"
+    link: "https://krita.org"
+  - name: "GIMP"
+    link: "https://gimp.org"
+  - name: "Paint.NET"
+    link: "https://getpaint.net"
+  - name: "Inkscape"
+    link: "https://inkscape.org"
+- title: "Assets"
+  description: "When using free assets, please remember to credit the authors."
+  items:
+  - name: "OpenGameArt"
+    link: "https://opengameart.org"
+  - name: "Itch.io free game assets"
+    link: "https://itch.io/game-assets/free"
+  - name: "Kenney's assets"
+    link: "https://www.kenney.nl/"
+- title: "Articles and Reading"
+  items:
+  - name: "Lost Garden"
+    link: "http://lostgarden.com"
