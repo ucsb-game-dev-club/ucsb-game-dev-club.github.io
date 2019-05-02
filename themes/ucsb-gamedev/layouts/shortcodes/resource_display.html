@@ -1,29 +1,34 @@
-{{ range $.Site.Data.resources.categories }}
-{{ $category := . }}
-<h2>{{ $category.title }}</h2>
+{{ range $index, $category := $.Site.Data.resources.categories }}
+<div class="resource-category">
+    <input type="checkbox" class="resource-category-toggle" id="resource-category-{{ $index }}" />
+    <label for="resource-category-{{ $index }}" class="resource-category-title">
+        {{ $category.title }}
+    </label>
+    <div class="resource-category-subcategories">
+        {{ if isset $category "description" }}
+        <p>{{ $category.description | markdownify }}</p>
+        {{ end }}
 
-{{ if isset $category "description" }}
-<p>{{ $category.description | markdownify }}</p>
-{{ end }}
+        {{ range $category.subcategories }}
+        {{ $subcategory := . }}
+        <h3>{{ $subcategory.title}}</h3>
+        {{ if isset $subcategory "description" }}
+        <p>{{ $subcategory.description | markdownify }}</p>
+        {{ end }}
 
-{{ range $category.subcategories }}
-{{ $subcategory := . }}
-<h3>{{ $subcategory.title}}</h3>
-{{ if isset $subcategory "description" }}
-<p>{{ $subcategory.description | markdownify }}</p>
-{{ end }}
+        <ul>
+            {{ range $subcategory.items }}
+            {{ partial "resource_entry.html" . }}
+            {{ end }}
+        </ul>
+        {{ end }}
 
-<ul>
-    {{ range $subcategory.items }}
-    {{ partial "resource_entry.html" . }}
-    {{ end }}
-</ul>
-{{ end }}
-
-<ul>
-    {{ range $category.items }}
-    {{ partial "resource_entry.html" . }}
-    {{ end }}
-</ul>
+        <ul>
+            {{ range $category.items }}
+            {{ partial "resource_entry.html" . }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
 
 {{ end }}

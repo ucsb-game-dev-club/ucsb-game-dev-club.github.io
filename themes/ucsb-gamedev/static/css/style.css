@@ -145,6 +145,42 @@ code {
     font-size: 1.5em;
 }
 
+/* Resource listing styles */
+
+.resource-category {
+
+}
+
+.resource-category-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.resource-category-title:hover {
+    cursor: pointer;
+}
+
+/* Styles to hide and show each category */
+.resource-category-toggle {
+    display: none;
+}
+
+.resource-category-title:before {
+    content: "+";
+}
+
+.resource-category-toggle:checked + .resource-category-title:before {
+    content: "-";
+}
+
+.resource-category-subcategories {
+    display: none;
+}
+
+.resource-category-toggle:checked ~ .resource-category-subcategories {
+    display: block;
+}
+
 /* Showcase listing styles */
 
 .showcase-list {
