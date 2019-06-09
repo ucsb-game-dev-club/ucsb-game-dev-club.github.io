@@ -32,14 +32,20 @@ game design when he attended Carnegie Mellon’s summer program. He loves teachi
 others the theory and process behind games, and also making games himself!
 
 {{% /officer_info %}}
-{{% officer_info Jackie "jackie.jpg" %}}
+{{% officer_info Kari "kari.jpg" %}}
 
-Jackie (TODO)
+Kari (TODO)
 
 {{% /officer_info %}}
-{{% officer_info Tiffany "tiffany.jpg" %}}
+{{% officer_info Ryan "ryan.jpg" %}}
 
-Tiffany (TODO)
+Ryan Schroeder is a 3rd-year CCS Computing major from Altadena, CA. His primary
+interests are computer graphics, audio synthesis, and programming language
+design. He has worked for the 2019 production of The Lion King and currently
+works for Opus Logica, but still enjoys working on small personal projects in
+his spare time. Outside of computer science, he has an affinity for audiovisual
+arts such as graphic design, photography, and digital sound design. You can find
+out more about some of his projects at [his website](https://ryan-s.net/).
 
 {{% /officer_info %}}
 {{% officer_info Bryan "bryan.jpg" %}}
