@@ -13,6 +13,17 @@ code {
     font-family: courier, monospace;
 }
 
+/* Centers contents */
+.prose-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sets a max width for readability */
+.prose-width {
+    max-width: 60em;
+}
+
 #main-content {
     padding-left: 2em;
     padding-right: 2em;
@@ -75,6 +86,44 @@ code {
     box-shadow: 0 0 5px gray;
 }
 
+/* About page */
+
+.officer-info-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.officer-info-list > li {
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+.officer-info-list > li:last-child {
+    padding-bottom: 0;
+}
+
+.officer-info-portrait {
+    width: 5em;
+    height: 5em;
+    align-self: center;
+}
+
+.officer-info-desc {
+    margin-left: 2em;
+}
+
+@media screen and (max-width: 760px) {
+    .officer-info-list > li {
+        flex-direction: column;
+    }
+
+    .officer-info-desc {
+        margin-left: 0;
+    }
+}
+
+/* News and Events */
+
 .article-header > h1 {
     margin-top: 0em;
     margin-bottom: 0em;
@@ -94,6 +143,42 @@ code {
 
 .article-summary-title {
     font-size: 1.5em;
+}
+
+/* Resource listing styles */
+
+.resource-category {
+
+}
+
+.resource-category-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.resource-category-title:hover {
+    cursor: pointer;
+}
+
+/* Styles to hide and show each category */
+.resource-category-toggle {
+    display: none;
+}
+
+.resource-category-title:before {
+    content: "+";
+}
+
+.resource-category-toggle:checked + .resource-category-title:before {
+    content: "-";
+}
+
+.resource-category-subcategories {
+    display: none;
+}
+
+.resource-category-toggle:checked ~ .resource-category-subcategories {
+    display: block;
 }
 
 /* Showcase listing styles */

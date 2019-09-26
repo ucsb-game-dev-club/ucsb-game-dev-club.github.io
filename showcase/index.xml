@@ -17,7 +17,7 @@
       <pubDate>Wed, 26 Dec 2018 14:28:02 -0800</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/showcase/spellball/</guid>
-      <description>Spellball is a variant of the Pong game in which each player controls a wizard and attempts to defeat the other player&amp;rsquo;s wizard. This is achieved by controlling a paddle and deflecting the ball onto the opponent&amp;rsquo;s wizard or side, with a hit to the opponent&amp;rsquo;s wizard doing more &amp;ldquo;damage&amp;rdquo;. Each player can place an enchantment on their wizard&amp;rsquo;s paddle, which will grant the ball one of two special effects when the ball hits the paddle: ice moves more slowly but does more damage, and lightning moves quickly but does less damage.</description>
+      <description>A variation of pong involving a duel between wizards and their enchanted paddles.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sun, 11 Nov 2018 12:47:23 -0800</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/showcase/example3/</guid>
-      <description>Description of the game</description>
+      <description>Short summary of what the game is about</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Sun, 11 Nov 2018 12:45:45 -0800</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/showcase/example2/</guid>
-      <description>Description of the game</description>
+      <description>Short summary of what the game is about</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sun, 11 Nov 2018 12:31:51 -0800</pubDate>
       
       <guid>https://ucsb-game-dev-club.github.io/showcase/example/</guid>
-      <description>Description of the game</description>
+      <description>A short summary of what the game is supposed to be about but it&amp;rsquo;s too long to fit in the space provided so it automatically gets cut off by the web browser according to the style sheet for this website</description>
     </item>
     
   </channel>
