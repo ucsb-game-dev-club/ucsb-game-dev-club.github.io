@@ -2,7 +2,7 @@
 {{ if isset .Params "thumbnail" }}
   {{ $thumbnailFile = .Params.Thumbnail }}
 {{ end }}
-{{ $thumbnailUrl := printf "%s%s" .URL $thumbnailFile }}
+{{ $thumbnailUrl := printf "%s%s" .RelPermalink $thumbnailFile }}
 
 <object class="showcase-list-item-thumbnail" data="{{ $thumbnailUrl }}" type="image/jpg">
     No Image

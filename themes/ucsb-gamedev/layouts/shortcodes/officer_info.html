@@ -2,6 +2,6 @@
     <img class="officer-info-portrait" src="/about/{{ .Get 1 }}" />
     <!-- {{ .Get 0 }} -->
     <div class="officer-info-desc">
-        {{ .Inner }}
+        {{ .Inner | markdownify }}
     </div>
 </li>

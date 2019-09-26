@@ -4,7 +4,7 @@
 {{ if isset .Params "fullimage" }}
 {{ $imageFile = .Params.FullImage }}
 {{ end }}
-{{ $imageUrl := printf "%s%s" .URL $imageFile }}
+{{ $imageUrl := printf "%s%s" .RelPermalink $imageFile }}
 
 <article class="showcase-project">
     <img class="showcase-fullimage" src="{{ $imageUrl }}" alt="Image of the game" />
