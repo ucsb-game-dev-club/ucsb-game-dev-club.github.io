@@ -106,6 +106,8 @@ code {
     width: 5em;
     height: 5em;
     align-self: center;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .officer-info-desc {
