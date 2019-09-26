@@ -32,9 +32,14 @@ game design when he attended Carnegie Mellon’s summer program. He loves teachi
 others the theory and process behind games, and also making games himself!
 
 {{% /officer_info %}}
-{{% officer_info Kari "kari.jpg" %}}
+{{% officer_info Khari "khari.jpg" %}}
 
-Kari (TODO)
+Hi, I'm Khari! I've been an on and off game programmer since I was 7, and I
+focus primarily on how the rules of a game shape how it's played. I'm influenced
+by game design analysts like Mark Brown and Cagey Videos; some games I admire
+include Left 4 Dead (2), Rocket League, and Foddy's Get On Top. My mission as a
+GDC Specialist is to get club members to make whatever game you can, with
+whatever time you have!
 
 {{% /officer_info %}}
 {{% officer_info Ryan "ryan.jpg" %}}
@@ -50,9 +55,10 @@ out more about some of his projects at [his website](https://ryan-s.net/).
 {{% /officer_info %}}
 {{% officer_info Bryan "bryan.jpg" %}}
 
-Bryan is the club's website maintainer and technical support. He's a
-fairly experienced programmer and is interested in technical aspects of games
-such as engine architecture, AI, and game logic.
+Bryan is the club's website maintainer and technical support. He's a fairly
+experienced programmer and is interested in technical aspects of games such as
+engine architecture, AI, and game logic as well as applications of theoretical
+computer science to game engines.
 
 {{% /officer_info %}}
 </ul>
