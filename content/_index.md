@@ -5,8 +5,7 @@ UCSB's Game Development Club is an organization focused on bringing together
 people who are passionate about the skills and processes that go towards game
 development. We aim to create a supportive environment for people to experiment,
 develop their skills, and connect with other prospective game developers. We
-currently meet on Fridays from 5 pm to 7 pm in the College of Creative Studies
-building, Room 143.
+currently meet on Mondays from 7 pm to 8 pm in the Building 936, Rm 101.
 
 Find us on Facebook, Discord, or reach out to us at `ucsbgamedevclub (at) gmail
 (dot) com` (please replace "at" and "dot" with their appropriate symbols).
