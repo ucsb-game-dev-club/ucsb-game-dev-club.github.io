@@ -5,9 +5,9 @@ use [Hugo](https://gohugo.io) as a static site generator.
 
 ## Getting Started
 
-Make sure you have `hugo` and `git` installed. You will also need to install
-`git-lfs` so you can download images used in the website. Once you have all
-three installed, open a terminal (`cmd` on Windows) and run
+Make sure you have `hugo` version 0.60 or later and `git` installed. You will
+also need to install `git-lfs` so you can download images used in the website.
+Once you have all three installed, open a terminal (`cmd` on Windows) and run
 
 ```plain
 git clone https://github.com/ucsb-game-dev-club/ucsb-game-dev-club.github.io.git

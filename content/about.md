@@ -9,14 +9,14 @@ The UCSB Game Development Club (GDC) is... TODO
 ## Club Officers
 
 <ul class="officer-info-list">
-{{% officer_info Jake "jake.jpg" %}}
+{{< officer_info Jake "jake.jpg" >}}
 
 Jake is the club's co-chair with Chelsea. Artist into visual design, fictional
 narrative, personal narrative work, and sociological and feminist theories'
 intersections within art, games, culture, and activism.
 
-{{% /officer_info %}}
-{{% officer_info Chelsea "chelsea.jpg" %}}
+{{< /officer_info >}}
+{{< officer_info Chelsea "chelsea.jpg" >}}
 
 Chelsea is the club’s co-chair and Art Specialist in 2D concept and character
 art with some experience in 3D modeling. She’s interested in narratively driven
@@ -24,15 +24,15 @@ games with wholesome messages and a sense of humor. On the side, she dabbles in
 fan merchandise, s(truggling)tudying in earth science, and thinking about her
 next meal.
 
-{{% /officer_info %}}
-{{% officer_info Alexis "alexis.jpg" %}}
+{{< /officer_info >}}
+{{< officer_info Alexis "alexis.jpg" >}}
 
 Alexis is UCSB Game Dev Club’s programming and design lead. He got his start in
 game design when he attended Carnegie Mellon’s summer program. He loves teaching
 others the theory and process behind games, and also making games himself!
 
-{{% /officer_info %}}
-{{% officer_info Khari "khari.jpg" %}}
+{{< /officer_info >}}
+{{< officer_info Khari "khari.jpg" >}}
 
 Hi, I'm Khari! I've been an on and off game programmer since I was 7, and I
 focus primarily on how the rules of a game shape how it's played. I'm influenced
@@ -41,8 +41,8 @@ include Left 4 Dead (2), Rocket League, and Foddy's Get On Top. My mission as a
 GDC Specialist is to get club members to make whatever game you can, with
 whatever time you have!
 
-{{% /officer_info %}}
-{{% officer_info Ryan "ryan.jpg" %}}
+{{< /officer_info >}}
+{{< officer_info Ryan "ryan.jpg" >}}
 
 Ryan Schroeder is a 3rd-year CCS Computing major from Altadena, CA. His primary
 interests are computer graphics, audio synthesis, and programming language
@@ -52,13 +52,13 @@ his spare time. Outside of computer science, he has an affinity for audiovisual
 arts such as graphic design, photography, and digital sound design. You can find
 out more about some of his projects at [his website](https://ryan-s.net/).
 
-{{% /officer_info %}}
-{{% officer_info Bryan "bryan.jpg" %}}
+{{< /officer_info >}}
+{{< officer_info Bryan "bryan.jpg" >}}
 
 Bryan is the club's website maintainer and technical support. He's a fairly
 experienced programmer and is interested in technical aspects of games such as
 engine architecture, AI, and game logic as well as applications of theoretical
 computer science to game engines.
 
-{{% /officer_info %}}
+{{< /officer_info >}}
 </ul>

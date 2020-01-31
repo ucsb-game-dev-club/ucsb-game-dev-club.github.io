@@ -6,4 +6,4 @@ title: Resources
 
 This page contains a list of helpful resources for game development.
 
-{{% resource_display %}}
+{{< resource_display >}}
